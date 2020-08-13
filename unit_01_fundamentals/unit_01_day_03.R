@@ -27,7 +27,9 @@ runInfo$Run4 <- x4
 # Rnotebook prints it out, so to save go to github and to the project
 # and create a new file, save as FILENAME.csv and paste in the printout
 
-write.csv(runInfo)
+write.csv(runInfo, "example_data.csv")
+
+# IMPORTANT use write.csv(runInfo) in rnotebook to copy and past into github
 
 
 # ggplot2 has more graphing abilities.
